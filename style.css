@@ -3,8 +3,34 @@ header{
     margin-top: 20%;
     margin-left: 7%;
 }
+.navbar {
+    background-image: linear-gradient(360deg, #F36B83 5%,#F9B3BF 4%, #FFFFFF 85%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    font-size: 30px;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 10px 0 black;
+}
+
+.navbar * {
+    display: inline;
+}
+
+.navbar li {
+    margin: 29px;
+}
+
+.navbar li a {
+    color: black;
+    
+    text-decoration: none;
+}
 .name{
-    color: #F190B7;
+    color: #F36B83;
     margin-left: 1%;
     font-size: 75px;
     
@@ -18,7 +44,7 @@ header{
     margin-top: 1.8%;
     font-size: 30px;
     border-radius: 5px;
-    border: 1px solid #555;
+    border: 1px solid rgb(27, 179, 16);
 }
 .link:hover{
     border: 1px solid #A63EC5;
@@ -28,12 +54,18 @@ header{
     width: 27%;
     margin-top: -31%;
     margin-left: 60%;
-    background-color: #F190B7;
-    box-shadow: rgba(50, 50, 93, 0.25) 50px 100px 150px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #F36B83;
 }
 .image{
     margin-left: 61.4%;
     margin-top: -40%;
+}
+.squaree{
+    background-color: #F36B83;
+    height: 600px;
+    width: 27%;
+    margin-top: -20%;
+    margin-left: 10%;
 }
 .image-1{
     margin-top: -37%;
@@ -47,7 +79,7 @@ header{
     color: #CE49BF;
 }
 .icon2{
-    color: #F190B7;
+    color: #F36B83;
     margin-top: -25%;
     margin-left: 15%;
 }
@@ -55,6 +87,7 @@ header{
     color: #A63EC5;
 }
 h1{
+    padding-top: 10%;
     margin-left: 65%;
     margin-top: 7%;
     font-size: 60px;
@@ -81,7 +114,7 @@ h2{
     margin-top: 1.8%;
     font-size: 25px;
     border-radius: 5px;
-    border: 1px solid #555;
+    border: 1px solid rgb(27, 179, 16);
 }
 .github:hover{
     border: 1px solid #A63EC5;
@@ -99,7 +132,7 @@ h2{
     padding-top: 1%;
     font-size: 25px;
     border-radius: 5px;
-    border: 1px solid #555;
+    border: 1px solid rgb(27, 179, 16);
 }
 .netlify:hover{
     border: 1px solid #A63EC5;
@@ -116,7 +149,7 @@ h2{
     font-size: 25px;
     padding-right: 2%;
     border-radius: 5px;
-    border: 1px solid #555;
+    border: 1px solid rgb(27, 179, 16);
 }
 .figma:hover{
     border: 1px solid #A63EC5;
@@ -134,7 +167,7 @@ h2{
     margin-top: 1.8%;
     font-size: 25px;
     border-radius: 5px;
-    border: 1px solid #555;
+    border: 1px solid rgb(27, 179, 16);
 }
 .linkedin:hover{
     border: 1px solid #A63EC5;
@@ -151,8 +184,7 @@ h2{
     margin-top: 5%;
     margin-left: 1%;
     border-radius: 20px;
-    background-color: #F190B7;
-    box-shadow: rgba(50, 50, 93, 0.25) 50px 100px 150px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #F36B83;
 }
 .project1{
     font-size: 27px;
@@ -163,11 +195,9 @@ h2{
     margin-top: 3%;
     padding-bottom: 2%;
     border-radius: 5px;
-    border: 1px solid #555;
+    border: 1px solid rgb(27, 179, 16);
 }
 .project1:hover{
-    background-color: rgb(232, 130, 130);
-    opacity: transparent;
     border-color: #A63EC5;
 }
 .square3 {
@@ -176,8 +206,7 @@ h2{
     margin-top: -28%;
     margin-left: 26%;
     border-radius: 20px;
-    background-color: #F190B7;
-    box-shadow: rgba(50, 50, 93, 0.25) 50px 100px 150px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #F36B83;
 }
 .project2{
     margin-left: 31%;
@@ -189,11 +218,9 @@ h2{
     padding-bottom: 2%;
     height: 20px;
     border-radius: 5px;
-    border: 1px solid #555;
+    border: 1px solid rgb(27, 179, 16);
 }
 .project2:hover{
-    background-color: rgb(232, 130, 130);
-    opacity: transparent;
     border-color: #A63EC5;
 }
 .square4 {
@@ -202,8 +229,7 @@ h2{
     margin-top: -28%;
     margin-left: 51%;
     border-radius: 20px;
-    background-color: #F190B7;
-    box-shadow: rgba(50, 50, 93, 0.25) 50px 100px 150px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #F36B83;
 }
 .project3{
     font-size: 27px;
@@ -215,11 +241,9 @@ h2{
     padding-bottom: 2%;
     height: 20px;
     border-radius: 5px;
-    border: 1px solid #555;
+    border: 1px solid rgb(27, 179, 16);
 }
 .project3:hover{
-    background-color: rgb(232, 130, 130);
-    opacity: transparent;
     border-color: #A63EC5;
 }
 
@@ -229,8 +253,7 @@ h2{
     margin-top: -28%;
     margin-left: 76%;
     border-radius: 20px;
-    background-color: #F190B7;
-    box-shadow: rgba(50, 50, 93, 0.25) 50px 100px 150px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #F36B83;
 }
 .project4{
     margin-left: 82%;
@@ -242,17 +265,15 @@ h2{
     padding-bottom: 2%;
     height: 20px;
     border-radius: 5px;
-    border: 1px solid #555;
+    border: 1px solid rgb(27, 179, 16);
 }
 .project4:hover{
-    background-color: rgb(232, 130, 130);
-    opacity: transparent;
     border-color: #A63EC5;
 }
 
 button{
     cursor: pointer;
-    border: 1px solid #F190B7;
+    border: 1px solid #f74f92;
     text-align: center;
     margin-left: 40%;
     height: 40px;
@@ -265,7 +286,7 @@ button{
     background-color: white;
 }
 button:hover{
-    background-color: #F190B7;
+    background-color: #F36B83;
     color: white;
 }
 .dark{
@@ -279,8 +300,7 @@ button:hover{
     margin-top: 5%;
     margin-left: 1%;
     border-radius: 20px;
-    background-color: #F190B7;
-    box-shadow: rgba(50, 50, 93, 0.25) 50px 100px 150px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #F36B83;
 }
 .project5{
     font-size: 27px;
@@ -292,11 +312,9 @@ button:hover{
     margin-top: 3%;
     padding-bottom: 2%;
     border-radius: 5px;
-    border: 1px solid #555;
+    border: 1px solid rgb(27, 179, 16);
 }
 .project5:hover{
-    background-color: rgb(232, 130, 130);
-    opacity: transparent;
     border-color: #A63EC5;
 }
 .square7 {
@@ -305,8 +323,7 @@ button:hover{
     margin-top: -28%;
     margin-left: 26%;
     border-radius: 20px;
-    background-color: #F190B7;
-    box-shadow: rgba(50, 50, 93, 0.25) 50px 100px 150px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #F36B83;
 }
 .project6{
     margin-left: 31%;
@@ -318,11 +335,9 @@ button:hover{
     padding-bottom: 2%;
     height: 20px;
     border-radius: 5px;
-    border: 1px solid #555;
+    border: 1px solid rgb(27, 179, 16);
 }
 .project6:hover{
-    background-color: rgb(232, 130, 130);
-    opacity: transparent;
     border-color: #A63EC5;
 }
 .square8 {
@@ -331,8 +346,7 @@ button:hover{
     margin-top: -28%;
     margin-left: 51%;
     border-radius: 20px;
-    background-color: #F190B7;
-    box-shadow: rgba(50, 50, 93, 0.25) 50px 100px 150px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #F36B83;
 }
 .project7{
     font-size: 27px;
@@ -344,11 +358,9 @@ button:hover{
     padding-bottom: 2%;
     height: 20px;
     border-radius: 5px;
-    border: 1px solid #555;
+    border: 1px solid rgb(27, 179, 16);
 }
 .project7:hover{
-    background-color: rgb(232, 130, 130);
-    opacity: transparent;
     border-color: #A63EC5;
 }
 
@@ -358,8 +370,7 @@ button:hover{
     margin-top: -28%;
     margin-left: 76%;
     border-radius: 20px;
-    background-color: #F190B7;
-    box-shadow: rgba(50, 50, 93, 0.25) 50px 100px 150px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: #F36B83;
 }
 .project8{
     margin-left: 82%;
@@ -371,24 +382,25 @@ button:hover{
     padding-bottom: 2%;
     height: 20px;
     border-radius: 5px;
-    border: 1px solid #555;
+    border: 1px solid rgb(27, 179, 16);
 }
 .project8:hover{
-    background-color: rgb(232, 130, 130);
-    opacity: transparent;
     border-color: #A63EC5;
 }
 h3{
     font-size: 70px;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 10%;
+}
+h4{
+    padding-top: 7%;
 }
 .line{
     height: 110px;
     width: 0.5%;
     margin-left: 3%;
     border-radius: 100px;
-    background-color: #F190B7;
+    background-color: #F36B83;
 }
 .skill-1{
     margin-left: 5%;
@@ -421,7 +433,7 @@ h3{
     margin-top: 1%;
     margin-left: 3%;
     border-radius: 100px;
-    background-color: #F190B7;
+    background-color: #F36B83;
 }
 .skill-3{
     margin-left: 5%;
@@ -449,7 +461,7 @@ h3{
     margin-top: 3%;
     margin-left: 3%;
     border-radius: 100px;
-    background-color: #F190B7;
+    background-color: #F36B83;
 }
 .skill-5{
     margin-left: 5%;
@@ -483,31 +495,163 @@ h3{
     text-align: center;
     padding-top: 3%;
 }
-.navbar {
+
+.course1{
+    margin-left: 3%; 
+    border-radius: 30px;
+    border: solid 1px;
+    width: 20%;
+    padding-left: 4%;
+    padding-right: 4%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
     background-color: white;
-    position: fixed;
-    top: 0;
-    left: 0;
+}
+.course1 {
+    transition: transform 350ms ease-in-out;
+}
+.course1:hover {
+    transform: scale(1.1);
+    background-color: #F36B83;
+}
+.course2 {
+    transition: transform 350ms ease-in-out;
+}
+.course2:hover {
+    transform: scale(1.1);
+    background-color: #F36B83;
+} 
+.course3 {
+    transition: transform 350ms ease-in-out;
+}
+.course3:hover {
+    transform: scale(1.1);
+    background-color: #F36B83;
+}
+.python{
+    font-weight: bold;
+    color: #ec1c6f;
+    font-size: 40px;
+}
+.one-1{
+    margin-top: -5%;
     font-size: 30px;
+    width: 110%;
+    color: #830ca7;
     
-    right: 0;
-    height: 80px;
+}
+.course2{
+    margin-left: 35%;
+    border-radius: 30px;
+    border: solid 1px;
+    margin-top: -14.3%;
+    width: 20%;
+    padding-left: 4%;
+    padding-right: 4%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: white;
+}
+.javascript{
+    font-weight: bold;
+    color: #ec1c6f;
+    font-size: 40px;
+}
+.two-2{
+    margin-top: -5%;
+    font-size: 30px;
+    width: 110%;
+    color: #830ca7;
+}
+.course3{
+    margin-left: 68%;
+    border-radius: 30px;
+    border: solid 1px;
+    margin-top: -15%;
+    width: 20%;
+    padding-left: 4%;
+    padding-right: 4%;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    background-color: white;
+}
+.kotlin{
+    font-weight: bold;
+    color: #ec1c6f;
+    font-size: 40px;
+}
+.three-3{
+    margin-top: -5%;
+    font-size: 30px;
+    width: 100%;
+    color: #830ca7;
+}
+.section2{
+    padding-top: 5%;
+}
+h5{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 10%;
+}
+.gif-1{
+    margin-left: 8%;
+}
+.interest-1{
+    margin-left: 9%;
+    font-size: 35px;
+}
+.gif-2{
+    margin-left: 39%;
+    margin-top: -26%;
+}
+.interest-2{
+    margin-left: 44%;
+    font-size: 35px;
+}
+.gif-3{
+    margin-left: 70%;
+    margin-top: -26.3%;
+}
+.interest-3{
+    margin-left: 73%;
+    font-size: 35px;
+}
+.gifs{
+    padding-top: 3%;
+}
+
+
+.ml16 {
+    color: #402d2d;
+    padding: 40px 0;
+    font-weight: 800;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 0.5em;
+    overflow: hidden;
+  }
+  
+  .ml16 .h6 {
+    display: inline-block;
+    line-height: 1em;
+  }
+footer{
+    margin-top: 10%;
+    height: 225px;
     display: flex;
-    align-items: center;
-    box-shadow: 0 0 25px 0 black;
+    font-size: 45px;
+    background-color: #F36B83;
+    color: #000;
 }
-
-.navbar * {
-    display: inline;
+#email{
+    margin-left: 15%;
 }
-
-.navbar li {
-    margin: 29px;
+#contact{
+    margin-left: 23%;
 }
-
-.navbar li a {
-    color: black;
-    
-    text-decoration: none;
+.cont{
+    margin-left: -9%;
+    color: #FFFFFF;
 }
-
+.cont2{
+    margin-left: -30%;
+    color: #FFFFFF;
+}
