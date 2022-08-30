@@ -88,14 +88,16 @@ header{
 }
 h1{
     padding-top: 10%;
-    margin-left: 65%;
+    /* margin-left: 65%; */
     margin-top: 7%;
+    text-align: center;
     font-size: 60px;
 }
 .text-1{
-    width: 40%;
-    margin-left: 55%;
-    font-size: 30px;
+    width: 60%;
+    
+    margin-left: 20%;
+    font-size: 40px;
 }
 h2{
     text-align: center;
@@ -393,7 +395,8 @@ h3{
     padding-top: 10%;
 }
 h4{
-    padding-top: 7%;
+    padding-top: 5%;
+    padding-bottom: 3%;
 }
 .line{
     height: 110px;
@@ -497,9 +500,10 @@ h4{
 }
 
 .course1{
-    margin-left: 3%; 
+    margin-left: 2%;
     border-radius: 30px;
     border: solid 1px;
+    height: 300px;
     width: 20%;
     padding-left: 4%;
     padding-right: 4%;
@@ -511,21 +515,21 @@ h4{
 }
 .course1:hover {
     transform: scale(1.1);
-    background-color: #F36B83;
+    background-color: #ff9fb1;
 }
 .course2 {
     transition: transform 350ms ease-in-out;
 }
 .course2:hover {
     transform: scale(1.1);
-    background-color: #F36B83;
+    background-color: #ff9fb1;
 } 
 .course3 {
     transition: transform 350ms ease-in-out;
 }
 .course3:hover {
     transform: scale(1.1);
-    background-color: #F36B83;
+    background-color: #ff9fb1;
 }
 .python{
     font-weight: bold;
@@ -543,7 +547,7 @@ h4{
     margin-left: 35%;
     border-radius: 30px;
     border: solid 1px;
-    margin-top: -14.3%;
+    margin-top: -16%;
     width: 20%;
     padding-left: 4%;
     padding-right: 4%;
@@ -645,7 +649,7 @@ footer{
     margin-left: 15%;
 }
 #contact{
-    margin-left: 23%;
+    margin-left: 8%;
 }
 .cont{
     margin-left: -9%;
@@ -654,4 +658,13 @@ footer{
 .cont2{
     margin-left: -30%;
     color: #FFFFFF;
+}
+#design{
+    margin-left: 50%;
+    margin-top: 13%;
+    width: 35%;
+    height: 30%;
+    background-color: #A63EC5;
+    color: #fff;
+    font-size: 20px;
 }
