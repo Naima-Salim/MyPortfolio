@@ -517,15 +517,23 @@ h5{
     
    }
 
-   
-   
-  
- 
-   
-
-
+/* .projects{
+    text-align: center;
+    margin-left: 43%;
+    border-radius: 10px;
+    font-size: 25px;
+    width: 15%;
+    height: 55px;
+    margin-top: -10%;
+    background-color: #e96704;
+    color: #fff;
+} */
    .project-1{
-    
-    
     margin-top: 5%;
    }
+   .Figma{
+    margin-left: 43.5%;
+    margin-top: -2%;
+    font-size: 30px;
+    border-radius: 10px;  
+ }
